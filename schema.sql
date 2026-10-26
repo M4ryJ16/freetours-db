@@ -43,6 +43,7 @@ CREATE EXTENSION IF NOT EXISTS pgcrypto;
 \i tables/customers.sql;
 \i tables/bookings.sql;
 \i tables/reviews.sql;
+\i tables/tour_booking_settings.sql;
 
 -- Triggers (depend on both the updated_at() function and the tables)
 \i triggers/trg_tours_updated_at.sql;
